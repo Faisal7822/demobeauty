@@ -1,0 +1,441 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body{
+  font-size: 15px;
+  background: #EFE6E3;
+}
+
+.container {
+  max-width: 1222px;
+  margin: auto;
+}
+
+
+.container1{
+  display:flex;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+  height: 100px;
+  max-height: 100px;
+  text-align: left;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  flex: 1 1 0%;
+}
+
+
+
+a{
+  text-align: center;
+  text-decoration: none;
+  padding: 0 10px;
+  color: black;
+  display: inline-block;
+  font-size: 13px;
+}
+
+
+.logo{
+  display: flex;
+  color: #E45A2F;
+  justify-content: center;
+  align-items: center;
+}
+
+.lgs{
+  width: 180px;
+}
+
+i{
+  padding: 20px;
+  padding-left: 70px;
+  color: #E45A2F;
+}
+
+.contact{
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.phn{
+  text-align: left;
+  font-size: 15px;
+  padding-right: 40px;
+  padding-top: 25px;
+  display: inline-block;
+}
+
+button{
+  background: #E45A2F;
+  color:white;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+.container2{
+  display: flex;
+  padding-top: 50px;
+  background: #EFE6E3;
+}
+
+.c2{
+  padding-top: 200px;
+  padding-left: 100px;
+  padding-bottom: 70px;
+
+}
+
+.c2 h1{
+  font-size: 80px;
+
+}
+.c2 p{
+  font-size: 20px;
+  padding-top: 20px;
+  color: #777777;
+}
+
+.container3{
+  display: flex;
+  padding-top: 50px;
+  background: #EFE6E3;
+}
+
+.SERVICES{
+  display: flex;
+  padding: 50px 30px;
+  align-items: center;
+  justify-content: center;
+  background: #EBDDD9;
+  text-align: right;
+}
+
+.makeup{
+  display: inline-flex;
+  text-align: left;
+  padding: 10px;
+}
+.manicure{
+  display: inline-flex;
+  text-align: left;
+  padding: 10px;
+}
+.brows{
+  display:inline-flex;
+  text-align: left;
+  padding: 10px;
+}
+.SERVICES p{
+  color: #777777;
+}
+.price {
+    display: flex;
+    margin: 10px;
+    padding-top: 100px;
+    justify-content: center;
+
+}
+.price h5{
+  color: #777777;
+}
+.PRICES{
+  display: inline-block;
+  text-align: center;
+}
+.PRICES p{
+  color: #FA6339;
+
+}
+
+.container4 {
+    width: 100%;
+    display: flex;
+    padding-top: 100px;
+    background: #EFE6E3;
+    flex-direction: column;
+}
+.s{
+  padding-top: 0;
+  padding-right: 20px;
+}
+.s1{
+  padding-top: 46px;
+  padding-right: 20px;
+}
+.s p{
+  color: #FA6339;
+  text-align: right;
+  font-size: 20px;
+
+}
+.s1 p{
+  color: #FA6339;
+  text-align: right;
+  font-size: 20px;
+}
+.container5{
+  display: flex;
+  padding-top: 50px;
+  background: #EFE6E3;
+}
+.container5 h2{
+  font-size: 48px;
+}
+.container5 h6{
+  color: #FA6339;
+  font-size: 15px;
+}
+.container5 p{
+  font-size: 15px;
+}
+
+.container6{
+  background: #F7F3F1;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+}
+
+.feature{
+  width: 100%;
+  padding-left: 50px;
+  margin: 20px;
+
+}
+
+.main1{
+  width: 100%;
+  display: flex;
+  padding: 70px;
+  margin: 10px;
+  justify-content: center;
+}
+
+.main2{
+  width: 100%;
+  display: flex;
+  padding-top: 5px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin: 10px;
+  justify-content: space-around;
+}
+
+.express{
+  width: 25%;
+  padding: 20px;
+  border:2px solid;
+  border-color: rgb(0, 0, 0,0.1);
+}
+
+.express1{
+  width: 25%;
+  padding: 20px;
+  border:2px solid;
+  border-color: rgb(0, 0, 0,0.1);
+}
+
+.Cosmetics{
+  width: 25%;
+  padding: 20px;
+  border:2px solid;
+  border-color: rgb(0, 0, 0,0.1);
+}
+
+.Ourteam{
+  width: 25%;
+  padding: 20px;
+  border:2px solid;
+  border-color: rgb(0, 0, 0,0.1);
+}
+
+.Evening{
+  width: 25%;
+  padding: 20px;
+  border:2px solid;
+  border-color: rgb(0, 0, 0,0.1);
+}
+
+.Hairstyling{
+  width: 25%;
+  padding: 20px;
+  border:2px solid;
+  border-color: rgb(0, 0, 0,0.1);
+}
+
+.Lamination{
+  width: 25%;
+  padding: 20px;
+  border:2px solid;
+  border-color: rgb(0, 0, 0,0.1);
+}
+
+.Eyelash{
+  width: 25%;
+  padding: 20px;
+  border:2px solid;
+  border-color: rgb(0, 0, 0,0.1);
+}
+
+.main1 h6{
+  font-size: 20px;
+}
+
+.main2 h6{
+  font-size: 20px;
+}
+
+.main1 p{
+  font-size: 15px;
+  color: #777777;
+}
+
+.main2 p{
+  font-size: 15px;
+  color: #777777;
+}
+
+.container7{
+  width: 100%;
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background: #EFE6E3;
+}
+
+.ad{
+  width: 50%;
+  display:inline-block;
+  margin-left: 40px;
+  padding-left:50px;
+}
+.add h6{
+  color: #FA634B;
+}
+
+.ad p{
+  color: #777777;
+  font-size: 16px;
+}
+
+.container8{
+  background: #333333;
+  width: 100%;
+  padding-top: 50px;
+  margin: 0;
+  flex-direction: row;
+
+}
+
+.PLATFORMS{
+  width: 50%;
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  margin-left: 40px;
+  justify-content:space-between;
+
+
+
+}
+
+.PUBLISHING{
+  width: 50%;
+  padding-left: 80px;
+  margin: 40px;
+
+}
+.PUBLISHING h6{
+  color: #FA634B;
+}
+
+.PUBLISHING h1{
+  color: white;
+  font-size: 40px;
+}
+
+
+.container9{
+  width: 100%;
+  display: flex;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  margin-left: 50px;
+  flex-wrap: wrap;
+  background: #EFE6E3;
+
+}
+.need{
+  width: 100%;
+  display: inline-block;
+  margin: 20px 10px;
+}
+
+.need h1{
+  font-size: 50px;
+}
+
+.need p{
+  font-size: 18px;
+  color: #777777;
+}
+
+.form{
+  width: 100%;
+  display: flex;
+  margin-left: 100px;
+  padding: 80px;
+  justify-content: center;
+}
+
+.container10{
+  width: 100%;
+  display: flex;
+  background: #EBDDD9;
+  justify-content:space-around;
+  padding-top: 80px;
+  padding-bottom: 30px;
+
+}
+
+.container10 h6{
+  font-size: 18px;
+}
+
+.container10 h5{
+  font-size: 28px;
+  color: #777777;
+}
+
+footer{
+  border-top: 1px solid rgb(0, 0, 0, 0.2);
+  width: 100%;
+  background:#EBDDD9;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+#lgo{
+  justify-content: flex-start;
+  padding-top: 60px;
+  padding-left: 50px;
+
+}
+
+footer p{
+  padding-left: 500px;
+  padding-bottom: 50px;
+  margin-left: 400px;
+  color: #777777;
+
+}
